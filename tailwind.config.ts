@@ -12,6 +12,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      textColor: {
+        default: "#000000", // Default black color
+        soft: "#333333", // Slightly softer black for variation
+      },
     },
   },
   plugins: [],

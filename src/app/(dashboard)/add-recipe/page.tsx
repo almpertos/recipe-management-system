@@ -1,7 +1,9 @@
+import RecipeCreator from "@/app/components/RecipeCreator";
+
 const AddRecipePage = () => {
   return (
-    <div>
-      <h1>Add Recipe</h1>
+    <div className="flex flex-col items-center justify-center h-full p-4">
+      <RecipeCreator />
     </div>
   );
 };
